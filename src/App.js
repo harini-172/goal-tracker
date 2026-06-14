@@ -52,7 +52,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Goal Tracker</h1>
+      <h1>Goal Tracker Updated</h1>
 
       <input
         type="text"
