@@ -23,7 +23,7 @@ function App() {
     for (let i = 1; i <= days; i++) {
       newTasks.push({
         id: i,
-        text: 'Day ${i} - Work on ${goal}',
+        text: `Day ${i} - Work on ${goal}`,
         completed: false,
       });
     }
@@ -77,7 +77,7 @@ function App() {
       <div className="progress-bar">
         <div
           className="progress-fill"
-          style={{ width: '${progress}% '}}
+          style={{ width: `${progress}% `}}
         ></div>
       </div>
 
