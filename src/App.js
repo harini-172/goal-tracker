@@ -82,13 +82,13 @@ function App() {
       </div>
 
       {tasks.map((task) => (
-        <div key={task.id}>
+        <div className="task-item" key={task.id}>
           <input
             type="checkbox"
             checked={task.completed}
             onChange={() => toggleTask(task.id)}
           />
-          {task.text}
+          <span>{task.text}</span>
         </div>
       ))}
 
